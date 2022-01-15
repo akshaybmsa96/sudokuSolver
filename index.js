@@ -64,7 +64,6 @@ class SudokuSolver {
   }
 
   sudokuSolverRec(grid) {
-    console.log(grid);
     let i,
       j,
       isBreak = false;
@@ -186,7 +185,7 @@ class SudokuSolver {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM fully loaded and parsed");
+  //console.log("DOM fully loaded and parsed");
   const theSudokuSolver = new SudokuSolver();
   theSudokuSolver.renderSudoku();
 });
